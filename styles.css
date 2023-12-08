@@ -1,0 +1,47 @@
+body {
+    background-color: #000000;
+    overflow: hidden;
+    }
+
+  #logo{ 
+	position:fixed; 
+	top:0; 
+	left:0;
+    margin: 20px;
+} 
+
+#title-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh; /* Adjust to move the title and subtitle down */
+  }
+
+h1 {
+    color: #ffffff;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 96px;
+    text-align: center;
+    line-height: 99.1%;
+}
+
+p {
+    color: #ffffff;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+#ideas img{ 
+    position: absolute;
+    bottom: -10;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
