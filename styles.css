@@ -1,10 +1,11 @@
- body {
+body {
     background-color: #000000;
     overflow: hidden;
     }
     a {
         color: #FFEA80;
         text-decoration: none;
+        
     }
     
     a:hover {
@@ -13,13 +14,13 @@
         cursor:pointer;  
     }
 
- #logo{ 
-	position:fixed; 
-	top:0; 
-	left:0;
-    margin: 20px;
-} 
-
+    #logo {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (max-width: 600px) {
@@ -41,12 +42,12 @@ p {
     font-family: "articulat-cf", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.1rem;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    z-index: 2;
 }
-
 .slider {
     display: none
 }
@@ -60,7 +61,7 @@ p {
     font-family: "articulat-cf", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 96px;
+    font-size: 64px;
     text-align: center;
     line-height: 99.1%;
     margin-bottom: 50px
@@ -71,10 +72,11 @@ p {
     font-family: "articulat-cf", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.7rem;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    z-index: 2;
 }
 }
 
@@ -84,8 +86,13 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
-  }
+    padding-top: 3%;
+    height: 100vh;
+    max-width: 60vw; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    z-index: 2;
+}
+
 
 
 
