@@ -22,33 +22,8 @@
 
 
 /* Small devices such as large phones (640px and up) */
-@media only screen and (max-width: 480px) {
     h1 {
-    color: #ff0000;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 150px;
-    text-align: center;
-    line-height: 99.1%;
-    margin-bottom: 50px
-}
-
-p {
     color: #ffffff;
-    font-family: "articulat-cf", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-}
-
-/* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 480px) {h1 {
-    color: rgb(0, 18, 217);
     font-family: "articulat-cf", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -68,6 +43,37 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (max-width: 480px) {
+    h1 {
+    color: #ffffff;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 160px;
+    text-align: center;
+    line-height: 99.1%;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    color: #ffffff;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slider {
+    display: none
+}
+
 }
 
 #title-container {
