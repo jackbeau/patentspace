@@ -27,7 +27,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 3%;
+        padding-top: 8%;
         height: 100vh;
         max-width: 60vw; /* Adjust the max-width as needed */
         margin: 0 auto; /* Center the container horizontally */
@@ -101,6 +101,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 80vh;
+    
     max-width: 80vw; /* Adjust the max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
     z-index: 2;
